@@ -10,12 +10,12 @@ window.addEventListener('message', function(event){
         }
     }
     if (!mapa){
-        document.getElementById('todo').style.bottom = '1px'
-        document.getElementById('todo').style.left = '200px'
+        document.getElementById('#todo').style.bottom = '1px'
+        document.getElementById('#todo').style.left = '200px'
     }else{
 
-        document.getElementById('todo').style.bottom = '20%'
-        document.getElementById('todo').style.left = '33px'
+        document.getElementById('#todo').style.bottom = '20%'
+        document.getElementById('#todo').style.left = '33px'
     }
 
     if (event.data.delete){
