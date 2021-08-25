@@ -9,6 +9,7 @@ window.addEventListener('message', function(event){
             MostrarNoti(event.data);
         }
     }
+    
     if (!mapa){
         $('#todo').css({bottom: '1px'})
         $('#todo').css({left: '200px'})
