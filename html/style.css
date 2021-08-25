@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Medinaa;
+    src: url('../html/ProductSans.ttf');
+}
+
+* {
+    font-family: Medinaa;
+}
+
+
+body {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+#todo {
+    position: absolute;
+    bottom: 20%;
+    left: 33px;
+    transition-duration: 1s;
+}
+
+#entornosZona {
+    position: absolute;
+    top: 200px;
+    right: 1px;
+}
+
+.barrita {
+    margin-top: 5px;
+    width: 250px;
+    height: 1.5px;
+    right: 1px;
+    border-radius :       20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.texto {
+    color: rgba(255, 255, 255, 0.900);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.darvueltasPrimero {
+    animation: intro 1s ease-in-out;
+}
+
+.darvueltasSegundo {
+    animation: outro 1s ease-in-out;
+}
+
+.desaparecerBarra {
+    animation: barra 1s ease-in-out;
+}
+
+@keyframes intro {
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+
+@keyframes outro {
+    100%{opacity: 0%;}
+    0%{opacity: 100%;}
+}
+
+@keyframes barra {
+    0%{width: 250px;}
+    100%{width: 0px;}
+}
