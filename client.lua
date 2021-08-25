@@ -84,8 +84,8 @@ AddEventHandler('mdn_notifications:showNotification', function(message, timeout)
     ShowNotification(message, timeout)
 end)
 
-RegisterNetEvent('mdn_notications:deleteNotis')
-AddEventHandler('mdn_notications:deleteNotis', function()
+RegisterNetEvent('mdn_notifications:deleteNotis')
+AddEventHandler('mdn_notifications:deleteNotis', function()
     SendNUIMessage({
         delete = true,
     })
