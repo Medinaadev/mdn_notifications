@@ -5,3 +5,5 @@ ESX.ShowNotification = function(msg, job)
 end
 
 https://discord.gg/f2s5SMNn
+
+Preview: https://streamable.com/44loe3
